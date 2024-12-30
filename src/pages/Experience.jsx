@@ -32,7 +32,7 @@ export default function Experience() {
                         transition={{ duration: 1, delay: 2, ease: "easeInOut" }}
                     >
                         <img
-                            src="/src/assets/figma.png"
+                            src="/assets/figma.png"
                             alt="Design Tools"
                             className={`w-full pulse mx-auto max-w-[80px] max-h-[80px] md:max-w-[150px] md:max-h-[150px] 3xl:max-w-[200px] 3xl:max-h-[200px] h-auto rounded-xl`}
                         />
@@ -47,7 +47,7 @@ export default function Experience() {
                         transition={{ duration: 1 }}
                     >
                         <img
-                            src="/src/assets/adobe-illustrator.png"
+                            src="/assets/adobe-illustrator.png"
                             alt="Design Tools"
                             className={`w-full pulse mx-auto max-w-[80px] max-h-[80px] md:max-w-[150px] md:max-h-[150px] 3xl:max-w-[200px] 3xl:max-h-[200px] h-auto rounded-xl`}
                         />
@@ -62,7 +62,7 @@ export default function Experience() {
                         transition={{ duration: 1, delay: 1 }}
                     >
                         <img
-                            src="/src/assets/adobe-xd.png"
+                            src="/assets/adobe-xd.png"
                             alt="Design Tools"
                             className={`w-full pulse mx-auto max-w-[80px] max-h-[80px] md:max-w-[150px] md:max-h-[150px] 3xl:max-w-[200px] 3xl:max-h-[200px] h-auto rounded-xl`}
                         />
@@ -77,7 +77,7 @@ export default function Experience() {
                         transition={{ duration: 1, delay: 2 }}
                     >
                         <img
-                            src="/src/assets/adobe-photoshop.png"
+                            src="/assets/adobe-photoshop.png"
                             alt="Design Tools"
                             className={`w-full pulse mx-auto max-w-[80px] max-h-[80px] md:max-w-[150px] md:max-h-[150px] 3xl:max-w-[200px] 3xl:max-h-[200px] h-auto rounded-xl`}
                         />
@@ -92,7 +92,7 @@ export default function Experience() {
                         transition={{ duration: 1 }}
                     >
                         <img
-                            src="/src/assets/corel-draw.png"
+                            src="/assets/corel-draw.png"
                             alt="Design Tools"
                             className={`w-full pulse mx-auto max-w-[80px] max-h-[80px] md:max-w-[150px] md:max-h-[150px] 3xl:max-w-[200px] 3xl:max-h-[200px] h-auto rounded-xl`}
                         />

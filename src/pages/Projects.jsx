@@ -23,12 +23,12 @@ export default function Projects() {
     };
 
     const projects = [
-        { name: 'Sliding Animation Landing Page', img: 'src/assets/sliding-landing-page.png', link: 'https://www.behance.net/gallery/211203607/Sliding-Animation-Landing-Page' },
-        { name: 'Plant Ecommerce Landing Page', img: 'src/assets/plant-eCommerce.png', link: 'https://www.behance.net/gallery/209740115/E-Commerce-Plant-Website' },
-        { name: 'NIKE Shoes Landing Page', img: 'src/assets/Nike-shoes-landing-page.png', link: 'https://www.behance.net/gallery/209898825/Nike-Shoes-Landing-Page' },
-        { name: 'Restaurant Menu Page', img: 'src/assets/food-landing-page.png', link: 'https://www.behance.net/gallery/210240191/Food-Animation-Landing-Page' },
-        { name: 'Scrolling Animation Landing Page', img: 'src/assets/scrolling-animation.png', link: 'https://www.behance.net/gallery/209809155/Scrolling-Animation-Website' },
-        { name: 'Food Delivery App', img: 'src/assets/food-delivery-app.png', link: 'https://www.behance.net/gallery/215547381/Food-Delivery-App' },
+        { name: 'Sliding Animation Landing Page', img: '/assets/sliding-landing-page.png', link: 'https://www.behance.net/gallery/211203607/Sliding-Animation-Landing-Page' },
+        { name: 'Plant Ecommerce Landing Page', img: '/assets/plant-eCommerce.png', link: 'https://www.behance.net/gallery/209740115/E-Commerce-Plant-Website' },
+        { name: 'NIKE Shoes Landing Page', img: '/assets/Nike-shoes-landing-page.png', link: 'https://www.behance.net/gallery/209898825/Nike-Shoes-Landing-Page' },
+        { name: 'Restaurant Menu Page', img: '/assets/food-landing-page.png', link: 'https://www.behance.net/gallery/210240191/Food-Animation-Landing-Page' },
+        { name: 'Scrolling Animation Landing Page', img: '/assets/scrolling-animation.png', link: 'https://www.behance.net/gallery/209809155/Scrolling-Animation-Website' },
+        { name: 'Food Delivery App', img: '/assets/food-delivery-app.png', link: 'https://www.behance.net/gallery/215547381/Food-Delivery-App' },
     ];
 
     return (

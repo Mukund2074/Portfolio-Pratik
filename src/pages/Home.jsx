@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <section id='home' className='min-h-screen min-w-full rounded-lg shadow-lg shadow-[#523E7640] flex flex-col md:flex-row justify-center items-center '
             style={{
-                backgroundImage: "url('src/assets/home-bg.png')",
+                backgroundImage: "url('/assets/home-bg.png')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
