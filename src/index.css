@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Baloo Paaji 2 Variable";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #0ccfcb, #cd46c8);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+* ::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #1e1a1a;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #232222;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #9b9696;
+}
+
+@keyframes spin-border {
+  0% {
+    border-image-source: linear-gradient(to right, #09ece9, #4d014b);
+  }
+  25% {
+    border-image-source: linear-gradient(to right, #4d014b, #09ece9);
+  }
+  50% {
+    border-image-source: linear-gradient(to right, #09ece9, #4d014b);
+  }
+  75% {
+    border-image-source: linear-gradient(to right, #4d014b, #09ece9);
+  }
+  100% {
+    border-image-source: linear-gradient(to right, #09ece9, #4d014b);
+  }
+}
+
+.spinner-border {
+  border-width: 4px;
+  border-radius: 10px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #09ece9, #4d014b) 1;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  animation: spin-border 3s infinite linear;
+}
+
+.spinner-border:hover {
+  transform: scale(1.05);
+  color: #00d1b2;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0deg;
+}
+
+@property --angle2 {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 270deg;
+}
+
+.spb {
+  --angle: 0deg;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(#100425, #100425) padding-box,
+    conic-gradient(from var(--angle), #09ece9, #4d014b) border-box;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  max-width: 400px;
+  animation: rotate-gradient 2.5s infinite linear;
+}
+
+.spb-slow {
+  --angle: 0deg;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(#100425, #100425) padding-box,
+    conic-gradient(from var(--angle), #09ece9, #4d014b) border-box;
+  border: 6px solid transparent;
+  border-radius: 30px;
+  animation: rotate-gradient 5s infinite linear;
+}
+
+.spb-bold {
+  --angle: 0deg;
+  background: linear-gradient(#100425, #100425) padding-box,
+    conic-gradient(from var(--angle), #09ece9, #4d014b) border-box;
+  border: 8px solid transparent;
+  border-radius: 30px;
+  max-width: 400px;
+  animation: rotate-gradient 2.5s infinite linear;
+}
+
+.grad-border {
+  --angle: 0deg;
+  background: linear-gradient(#100425, #100425) padding-box,
+    conic-gradient(from var(--angle2), #0ccfcb, #b70fd2) border-box;
+  border: 8px solid transparent;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .spb-bold {
+    --angle: 0deg;
+    background: linear-gradient(#100425, #100425) padding-box,
+      conic-gradient(from var(--angle), #09ece9, #4d014b) border-box;
+    border: 4px solid transparent;
+    border-radius: 30px;
+    max-width: 400px;
+    animation: rotate-gradient 2.5s infinite linear;
+  }
+
+  .grad-border {
+    --angle: 0deg;
+    background: linear-gradient(#100425, #100425) padding-box,
+      conic-gradient(from var(--angle2), #0ccfcb, #b70fd2) border-box;
+    border: 2px solid transparent;
+    border-radius: 20px;
+  }
+}
+
+@keyframes rotate-gradient {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
+}
+
+.pulse {
+  transition: all 0.3s ease-in-out;
+}
+
+.pulse:hover {
+  transform: scale(1.1);
+}
