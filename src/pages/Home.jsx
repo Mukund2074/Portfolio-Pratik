@@ -23,7 +23,7 @@ export default function Home() {
 
                 <span className='flex gap-4'>
                     <a href="https://www.behance.net/pm227" className='bg-gradient-to-r from-[#0CCFCB] to-[#CD46C8] text-white border-[1px] rounded-full border-slate-200 px-4 py-2 mt-4 font-semibold' > BEHANCE PROFILE </a>
-                    <a target='_blank' download={true} href='/src/assets/Pratik_Mehta.pdf' className='bg-gradient-to-r from-[#0CCFCB] to-[#CD46C8] text-white border-[1px] rounded-full border-slate-200 px-4 py-2 mt-4 font-semibold' > RESUME </a>
+                    <a download={true} href='assets/Pratik_Mehta.pdf' className='bg-gradient-to-r from-[#0CCFCB] to-[#CD46C8] text-white border-[1px] rounded-full border-slate-200 px-4 py-2 mt-4 font-semibold' > RESUME </a>
                 </span>
 
             </span>

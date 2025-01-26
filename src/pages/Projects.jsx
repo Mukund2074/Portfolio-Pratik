@@ -58,7 +58,7 @@ export default function Projects() {
                             <img
                                 src={project.img}
                                 alt={project.name}
-                                className={`w-auto h-auto min-w-[300px] sm:max-h-[400px] sm:max-w-[400px] 3xl:max-h-[600px] 3xl:max-w-[600px] object-cover rounded-t-lg  hover:scale-105 hover:transition-all hover:duration-500 hover:ease-in-out
+                                className={`w-auto h-auto min-w-[250px] sm:max-h-[400px] sm:max-w-[400px] 3xl:max-h-[550px] 3xl:max-w-[550px] object-cover rounded-t-lg  hover:scale-105 hover:transition-all hover:duration-500 hover:ease-in-out
                                     ${hoveredIndex === index ? 'spb-bold' : 'grad-border'} 
                                     ${index === 4 ? 'pl-4' : ''}`}
                                 onMouseEnter={() => handleMouseEnter(index)}
